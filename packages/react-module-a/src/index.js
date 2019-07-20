@@ -5,8 +5,8 @@ import './style.scss'
 
 render(
   <MyApp />,
-  document.getElementById('rootAppNode')
+  document.getElementById('reactModuleA')
 )
 
-//The next line is not 'react' related. please do not delete it 
-module.hot.accept();
+// //The next line is not 'react' related. please do not delete it 
+// module.hot.accept();

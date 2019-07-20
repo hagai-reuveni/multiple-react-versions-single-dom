@@ -1,5 +1,5 @@
 {
-  "name": "@multiple/react-module-a",
+  "name": "@multiple/react-module-b",
   "version": "1.0.0",
   "private": "true",
   "description": "This is a basic react boilerplate for my react workshops and courses. Please note I'm using ^ on the packages as it is only a boilerplate",
@@ -24,10 +24,9 @@
     "style-loader": "^0.23.1",
     "webpack": "^4.27.1",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.10"
+    "webpack-dev-server": "^3.1.10",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
   },
-  "dependencies": {
-    "react": "16.6.3",
-    "react-dom": "16.6.3"
-  }
+  "dependencies": {}
 }

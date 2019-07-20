@@ -1,11 +1,11 @@
 {
-  "name": "@multiple/core",
+  "name": "@multiple/shell",
   "version": "0.0.0",
   "private": "true",
-  "description": "> TODO: description",
+  "description": "",
   "author": "Hagai Reuveni (arturdnt)",
+  "homepage": "",
   "license": "MIT",
-  "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
     "test": "echo testing core with version $npm_package_version",

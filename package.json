@@ -2,6 +2,17 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^3.16.1"
+    "lerna": "^3.16.1",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "scripts": {
+    "start:shell": "lerna run start --scope=@multiple/main",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "lerna run test --scope={@multiple/core,@multiple/react-module-a}",
+    "build": "lerna run build",
+    "new-version": "lerna version",
+    "diff": "lerna diff"
   }
 }
