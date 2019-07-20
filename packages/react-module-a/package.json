@@ -1,0 +1,19 @@
+{
+  "name": "react-module-a",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Hagai Reuveni <arturdnt@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/react-module-a.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
